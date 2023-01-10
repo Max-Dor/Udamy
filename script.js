@@ -56,4 +56,11 @@
 // }
 // console.log(hamburger === 3 && cola ==2  || frenchFrise == 3 && nuggets)
 
+//  Циклы .....
 
+let num = 50;
+
+while(num <= 60 ){
+    console.log(num);
+    num++;
+} 
