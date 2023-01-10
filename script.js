@@ -58,9 +58,53 @@
 
 //  Циклы .....
 
-let num = 50;
+// let num = 50;
 
-while(num <= 60 ){
-    console.log(num);
-    num++;
-} 
+// while(num <= 60 ){
+//     console.log(num);
+//     num++;
+// } 
+// do{
+//     console.log(num)
+//     num ++;
+// }
+// while(num <=  65)
+// for( let i = 0;  i < 10; i++){
+//     if(i === 6){
+//         break;
+//     }
+//     console.log(i)
+// }
+
+// Цикл в цикле ...(вложеность)
+
+// for(let i = 0; i <= 5; i++){
+//     console.log(i)
+//     for(let n = 0; n <= 3; n++){
+//         console.log(n)
+//     }
+// }
+
+let result = '';
+const lenght = 7;
+
+for(let i=1; i<lenght; i++){
+    for(let j=0; j<i; j++){
+        result += '*';
+    }
+    result += '\n';
+}
+
+
+console.log(result)
+
+first: for(let i = 0; i <= 3; i++){
+        console.log(`First level: ${i}`)
+        for(let n = 0; n <= 3; n++){
+            console.log(`Second level: ${n}`)
+            for(let n = 0; n < 5; n++){
+                if(n === 2) continue first;
+                console.log(`Therd level : ${n}`)
+            }
+        }
+    }
