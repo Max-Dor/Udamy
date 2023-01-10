@@ -85,26 +85,26 @@
 //     }
 // }
 
-let result = '';
-const lenght = 7;
+// let result = '';
+// const lenght = 7;
 
-for(let i=1; i<lenght; i++){
-    for(let j=0; j<i; j++){
-        result += '*';
-    }
-    result += '\n';
-}
+// for(let i=1; i<lenght; i++){
+//     for(let j=0; j<i; j++){
+//         result += '*';
+//     }
+//     result += '\n';
+// }
 
 
-console.log(result)
+// console.log(result)
 
-first: for(let i = 0; i <= 3; i++){
-        console.log(`First level: ${i}`)
-        for(let n = 0; n <= 3; n++){
-            console.log(`Second level: ${n}`)
-            for(let n = 0; n < 5; n++){
-                if(n === 2) continue first;
-                console.log(`Therd level : ${n}`)
-            }
-        }
-    }
+// first: for(let i = 0; i <= 3; i++){
+//         console.log(`First level: ${i}`)
+//         for(let n = 0; n <= 3; n++){
+//             console.log(`Second level: ${n}`)
+//             for(let n = 0; n < 5; n++){
+//                 if(n === 2) continue first;
+//                 console.log(`Therd level : ${n}`)
+//             }
+//         }
+//     }
